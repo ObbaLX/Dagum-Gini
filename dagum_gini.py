@@ -137,6 +137,6 @@ def calculate_dg(data):
     return gini_table
 
 if __name__ == '__main__':
-    data = pd.read_excel('../res/example.xlsx', index_col=0)
+    data = pd.read_excel('./example.xlsx', index_col=0)
     gini_table = calculate_dg(data)
 
